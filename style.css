@@ -265,8 +265,10 @@ section {
 }
 
 #ad {
+    grid-column: 6 / 7;
+    grid-row: 2 / 6;
 
-    display: none;
+    background-color: rgb(0, 114, 57);
 }
 
 /* for tablets */
@@ -336,10 +338,7 @@ section {
     
     #ad {
     
-        grid-column: 6 / 7;
-        grid-row: 2 / 6;
-    
-        background-color: rgb(0, 114, 57);
+        display: none;
     }
 }
 
@@ -348,7 +347,6 @@ section {
 @media only screen and (max-width: 500px){
     
     #grid-pro {
-
         height: 100vmin;
         width: 40vmin;
 
@@ -486,16 +484,5 @@ section {
 #repeat > div {
     border: 1px solid blueviolet;
 }
-
-/* We are going to create column classes to NOT align but to size our elements */
-
-.col-d-1 { width: ;}
-.col-d-2 { width: ;}
-.col-d-3 { width: ;}
-.col-d-4 { width: ;}
-.col-d-5 { width: ;}
-.col-d-6 { width: ;}
-.col-d-7 { width: ;}
-.col-d-8 { width: 100%;}
 
 
